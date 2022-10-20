@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+	int x = 20000000;
+	unsigned int y = x << 8;
+	unsigned int z = y >> 24;
+	printf("%d %d %d", x, y, z);
+	return 0;
+}
